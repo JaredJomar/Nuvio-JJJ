@@ -57,14 +57,6 @@ A curated collection of 40 English/Spanish Latino scrapers for the Nuvio streami
 | DVDPlay | EN | Movies/TV |
 | DramaFull | EN/KR/CN/JP | Asian Drama |
 
-## What's NOT included
-
-- Hindi/Bollywood content
-- French content
-- Android TV-only providers
-- Indonesian/Indian regional content
-- Duplicate providers
-
 ## License
 
 This project is for educational purposes only.
