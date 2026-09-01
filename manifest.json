@@ -1,0 +1,904 @@
+{
+  "name": "Nuvio JJJ",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "allanime",
+      "name": "AllAnime",
+      "description": "AllAnime - Anime and Manga content streaming",
+      "version": "1.0.0",
+      "author": "",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/allanime.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/DwpqLJWV/allanime.png",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "4khdhub",
+      "name": "4KHDHub",
+      "description": "4KHDHub direct links",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/4khdhub.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/DZpW6Xfb/4khdhub.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "allwish",
+      "name": "🌟 All-Wish",
+      "description": "All-Wish TV episodes via All-Wish servers",
+      "version": "1.0.1",
+      "author": "Kabir",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/allwish.js",
+      "enabled": true,
+      "hasSettings": true,
+      "limited": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/WpFW45WQ/allwish.png",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "animekai",
+      "name": "AnimeKai",
+      "description": "AnimeKai TV episodes via AnimeKai servers",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/animekai.js",
+      "enabled": true,
+      "hasSettings": true,
+      "limited": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/MKJd7fy7/animekai.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "anikototv",
+      "name": "AnikotoTV",
+      "description": "Anime provider for AnikotoTV.to via Mapper API + Native Extractor",
+      "version": "1.0.5",
+      "author": "piratezoro9",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/anikototv.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4"
+      ],
+      "logo": "https://i.postimg.cc/JhL3HBR4/anikototv.png",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "anidb",
+      "name": "AniDB",
+      "description": "Subbed and dubbed anime from AniDB.",
+      "version": "1.0.0",
+      "author": "Nuvio Team (ChillPill)",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/anidb.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/rmMzZ45K/anidb.png",
+      "contentLanguage": [
+        "en",
+        "ja",
+        "ko"
+      ]
+    },
+    {
+      "id": "animepahe",
+      "name": "AnimePahe",
+      "description": "Watch anime online free in HD with fast streaming servers. Stream latest anime episodes and movies daily",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/animepahe.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://i.postimg.cc/c4ZBGNNs/animepahe.png",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "animetsu",
+      "name": "Animetsu",
+      "description": "Lightning fast sub & dub anime streams via Animetsu",
+      "version": "1.0.0",
+      "author": "piratezoro9",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/animetsu.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/0Q3DvLx7/animetsu.png",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "animezey",
+      "name": "AnimeZeY",
+      "description": "Movies via AnimeZeY, indexed by TMDB",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/animezey.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/RVTy2djk/ainimezey.png",
+      "contentLanguage": [
+        "en",
+        "pt"
+      ]
+    },
+    {
+      "id": "castle",
+      "name": "🏰 Castle",
+      "description": "Multi Lang provider",
+      "version": "2.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/castle.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/0NvGzFyK/castle.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "dahmermovies",
+      "name": "Dahmermovies",
+      "description": "1080p Movies from Dahmermovies",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/dahmermovies.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/hGt3dV6Z/dhamermovies.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "dooflix",
+      "name": "DooFlix",
+      "description": "Fast streaming provider with direct TMDB integration",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/dooflix.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/59H1DmRk/dooflix.png",
+      "contentLanguage": [
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "hdhub4u",
+      "name": "HDHub4u",
+      "description": "Direct links from HDHub4u with high-speed download support",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hdhub4u.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/mryRTf0R/hdhub4u.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "hianime",
+      "name": "HiAnime",
+      "description": "HiAnime multi-server anime streaming with real-time mapping and subtitles",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hianime.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/13SYJPTx/hianime.png",
+      "contentLanguage": [
+        "ja",
+        "en"
+      ]
+    },
+    {
+      "id": "kurage",
+      "name": "Kurage",
+      "description": "Kurage.live anime streaming with tRPC API and multi-server proxy support",
+      "version": "1.0.0",
+      "author": "Paregi12",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/kurage.js",
+      "enabled": true,
+      "hasSettings": true,
+      "resources": [
+        "stream"
+      ],
+      "formats": [
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/3N2V7pHc/kurage.png",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "persianstremio",
+      "name": "🌸 PersianStremio",
+      "description": "Persian Stremio plugin for movies, series,and Persian media content in Iranian & English.",
+      "version": "1.4.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/persianstremio.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/qq6V2fTL/persian.png",
+      "contentLanguage": [
+        "en",
+        "pe"
+      ]
+    },
+    {
+      "id": "showbox",
+      "name": "ShowBox",
+      "description": "ShowBox streaming with multiple quality options and versions",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/showbox.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/8c5XGzsx/showbox.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "topcartoons",
+      "name": "TopCartoons",
+      "description": "Popular cartoons streaming",
+      "version": "1.0.0",
+      "author": "Phisher",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/topcartoons.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/3xVsbwp8/topcartoons.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "vidrock",
+      "name": "🪨 VidRock",
+      "description": "VidRock - 1080p 480p and 360p",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidrock.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/brxL7qg3/multivid.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "uhdmovies",
+      "name": "UHDMovies",
+      "description": "UHD Movies streaming with multiple resolution",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/uhdmovies.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/KzDBBdbK/uhdmovies.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "vidlink",
+      "name": "VidLink",
+      "description": "Vidlink streaming with encrypted TMDB ID support for movies and TV shows",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidlink.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/RZRHQd75/vidlink.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "videasy",
+      "name": "VidEasy",
+      "description": "Videasy streaming with encrypted TMDB ID support for movies and TV shows",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/videasy.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/7LHYMtVV/videasy.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "vidsrc",
+      "name": "VidSrc",
+      "description": "Vidsrc - The best place to watch movies and TV shows online for free. Stream in 1080p HD",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidsrc.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/ncMLBsLJ/vidsrc.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "vixsrc",
+      "name": "VixSrc",
+      "description": "VixSrc - The best place to watch movies and TV shows online for free. Stream in 1080p HD",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vixsrc.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/1tHrBvzs/vixsrc.png",
+      "contentLanguage": [
+        "en",
+        "Ita"
+      ]
+    },
+    {
+      "id": "vidfast",
+      "name": "VidFast",
+      "description": "Stream movies and TV shows from vidfast.pro.",
+      "version": "1.0.0",
+      "author": "Dustincos",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidfast.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/0Qp8PSx5/vidfast.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "vidlove",
+      "name": "❤️ VidLove",
+      "description": "Movie and TV show streams from MovieBox, LookMovie, VidnNest etc",
+      "version": "1.0.0",
+      "author": "Jeff",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidlove.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
+      "logo": "https://i.postimg.cc/ZRjQytBY/vidlove.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "onlykdrama",
+      "name": "🫰 OnlyKDrama",
+      "description": "Asian Drama",
+      "version": "1.0.0",
+      "author": "Moiz Ahmed + Codex",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/onlykdrama.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/dtX84Gqc/onlykdrama.jpg",
+      "contentLanguage": [
+        "ko"
+      ]
+    },
+    {
+      "id": "kisskh",
+      "name": "💋 Kisskh",
+      "description": "Streams Korean dramas and movies from onlykdrama.top",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/kisskh.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/2yLnTzPP/kisskh.jpg",
+      "contentLanguage": [
+        "ko",
+        "ch",
+        "ja",
+        "th"
+      ]
+    },
+    {
+      "id": "moviesmod",
+      "name": "MoviesMod",
+      "description": "Movie and TV show streams from MoviesMod with multiple quality options",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/moviesmod.js",
+      "enabled": true,
+      "formats": [
+        "mkv"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=moviesmod.farm&sz=128",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "description": "Streaming links from netmirror. Automatically disabled on iOS due to compatibility issues.",
+      "version": "1.0.3",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/netmirror.js",
+      "enabled": true,
+      "hasSettings": true,
+      "logo": "https://net22.cc/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [
+        "ios"
+      ],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "yflix",
+      "name": "YFlix",
+      "description": "YFlix streaming",
+      "version": "1.1.2",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/yflix.js",
+      "enabled": true,
+      "limited": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://yflix.to/assets/uploads/2f505f3de3c99889c1a72557f3e3714fc0c457b0.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "vidnest",
+      "name": "Vidnest",
+      "description": "Vidnest streaming with encrypted AES-GCM sources",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidnest.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://vidnest.fun/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "cinevibe",
+      "name": "Cinevibe",
+      "description": "Cinevibe (Movies)",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinevibe.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=cinevibe.online&sz=128",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "hdrezka",
+      "name": "HDRezka",
+      "description": "HDRezka streaming with multiple languages",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hdrezka.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://hdrezka.me/favicon.ico",
+      "contentLanguage": [
+        "en",
+        "ru",
+        "uk"
+      ]
+    },
+    {
+      "id": "myflixer-extractor",
+      "name": "MyFlixer",
+      "description": "MyFlixer streaming with HD quality links",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/myflixer-extractor.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://myflixer.is/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "watch32",
+      "name": "Watch32",
+      "description": "Watch32 streaming with multiple servers",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/watch32.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://watch32.me/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "xprime",
+      "name": "XPrime",
+      "description": "XPrime streaming with multi-quality options",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/xprime.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://xprime.tv/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "adimoviebox",
+      "name": "AdiMovieBox",
+      "description": "AdiMovieBox streaming with multiple quality options",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/adimoviebox.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://adimoviebox.com/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "dvdplay",
+      "name": "DVDPlay",
+      "description": "DVDPlay direct download links with HubCloud extraction",
+      "version": "1.0.2",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/dvdplay.js",
+      "enabled": true,
+      "formats": [
+        "mkv"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=dvdplay.com&sz=128",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "dramafull",
+      "name": "DramaFull",
+      "description": "DramaFull provider for Nuvio. Specializes in Asian dramas.",
+      "version": "1.0.0",
+      "author": "Abinanthankv",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/dramafull.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://dramafull.cc/favicon.ico",
+      "contentLanguage": [
+        "en",
+        "ko",
+        "zh",
+        "ja"
+      ]
+    }
+  ]
+}
