@@ -1,6 +1,6 @@
 # Nuvio JJJ
 
-A curated collection of 40 English/Spanish Latino scrapers for the Nuvio streaming application.
+A curated collection of 44 English/Spanish Latino scrapers for the Nuvio streaming application.
 
 ## Installation
 
@@ -56,6 +56,12 @@ A curated collection of 40 English/Spanish Latino scrapers for the Nuvio streami
 | AdiMovieBox | EN | Movies/TV |
 | DVDPlay | EN | Movies/TV |
 | DramaFull | EN/KR/CN/JP | Asian Drama |
+| MovieBox | EN | Movies/TV |
+| MoviesDrives | EN | Movies/TV |
+| CineFreak | EN | Movies/TV |
+| VAPlayer | EN/RU | Movies/TV |
+
+> **Note:** Arctic, 2Peckle, VegaMovies, Miruro, Cinejoy, and Live TV were researched but not included because their direct interfaces are unavailable, protected, or ambiguous. They are not installed.
 
 ## License
 

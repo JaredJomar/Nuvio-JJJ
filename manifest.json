@@ -899,6 +899,97 @@
         "zh",
         "ja"
       ]
+    },
+    {
+      "id": "moviebox",
+      "name": "MovieBox",
+      "description": "MovieBox streaming via public H5 API with TMDB integration and subtitle support",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/moviebox.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=moviebox.ph&sz=128",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "moviesdrive",
+      "name": "MoviesDrives",
+      "description": "MoviesDrives direct download links with HubCloud, GDFlix, and Pixeldrain extraction",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/moviesdrive.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=moviesdrive.design&sz=128",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "cinefreak",
+      "name": "CineFreak",
+      "description": "CineFreak streaming with generate.php link resolution and multi-quality support",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/cinefreak.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=cinefreak.net&sz=128",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "vaplayer",
+      "name": "VAPlayer",
+      "description": "VAPlayer API-based streaming with IMDb ID resolution and subtitle support",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vaplayer.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=vaplayer.ru&sz=128",
+      "contentLanguage": [
+        "en",
+        "ru"
+      ]
     }
   ]
 }
