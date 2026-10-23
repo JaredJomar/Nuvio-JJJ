@@ -5,7 +5,7 @@ A curated collection of 44 English/Spanish Latino scrapers for the Nuvio streami
 ## Installation
 
 1. Open Nuvio app
-2. Go to Settings > Local Scrapers
+2. Go to Settings > Plugings
 3. Add this repository URL:
    ```
    https://raw.githubusercontent.com/JaredJomar/Nuvio-JJJ/refs/heads/main/manifest.json
