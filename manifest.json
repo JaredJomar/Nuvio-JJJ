@@ -990,6 +990,93 @@
         "en",
         "ru"
       ]
+    },
+    {
+      "id": "airflix",
+      "name": "Airflix",
+      "description": "Airflix streaming with direct HLS links",
+      "version": "1.0.0",
+      "author": "raymondnoodles",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/airflix.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://files.catbox.moe/y9bg0d.jpeg",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "anineko",
+      "name": "AniNeko",
+      "description": "AniNeko anime streams with multiple servers",
+      "version": "1.0.0",
+      "author": "raymondnoodles",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/anineko.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://files.catbox.moe/qlvz36.jpeg",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "movix",
+      "name": "Movix",
+      "description": "Movies and TV series in English and French",
+      "version": "1.0.0",
+      "author": "wooodyhood",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/movix.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=movix.cash&sz=256",
+      "contentLanguage": [
+        "en",
+        "fr"
+      ]
+    },
+    {
+      "id": "tokyoinsider",
+      "name": "TokyoInsider",
+      "description": "TokyoInsider anime streams with sub and dub options",
+      "version": "1.1.0",
+      "author": "raymondnoodles",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/tokyoinsider.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=tokyoinsider.com&sz=256",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
     }
   ]
 }

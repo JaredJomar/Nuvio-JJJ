@@ -1,6 +1,6 @@
 # Nuvio JJJ
 
-A curated collection of 44 English/Spanish Latino scrapers for the Nuvio streaming application.
+A curated collection of 48 scrapers for English, Spanish Latino, French, Japanese, and other supported languages in the Nuvio streaming application.
 
 ## Installation
 
@@ -60,8 +60,12 @@ A curated collection of 44 English/Spanish Latino scrapers for the Nuvio streami
 | MoviesDrives | EN | Movies/TV |
 | CineFreak | EN | Movies/TV |
 | VAPlayer | EN/RU | Movies/TV |
+| Airflix | EN | Movies/TV |
+| AniNeko | EN/JP | Anime |
+| Movix | EN/FR | Movies/TV |
+| TokyoInsider | EN/JP | Anime |
 
-> **Note:** Arctic, 2Peckle, VegaMovies, Miruro, Cinejoy, and Live TV were researched but not included because their direct interfaces are unavailable, protected, or ambiguous. They are not installed.
+> **Upstream code:** Airflix, AniNeko, Movix, and TokyoInsider are adapted from [hihihihihiiray/nuvio-plugins](https://github.com/hihihihihiiray/nuvio-plugins) under GPL-3.0. See [licenses/GPL-3.0.txt](licenses/GPL-3.0.txt).
 
 ## License
 
