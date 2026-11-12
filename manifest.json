@@ -994,7 +994,7 @@
     {
       "id": "airflix",
       "name": "Airflix",
-      "description": "Airflix streaming with direct HLS links",
+      "description": "Temporarily disabled: tested HLS links return HTTP 401",
       "version": "1.0.0",
       "author": "raymondnoodles",
       "supportedTypes": [
@@ -1002,7 +1002,7 @@
         "tv"
       ],
       "filename": "providers/airflix.js",
-      "enabled": true,
+      "enabled": false,
       "formats": [
         "m3u8"
       ],

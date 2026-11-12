@@ -65,6 +65,8 @@ A curated collection of 48 scrapers for English, Spanish Latino, French, Japanes
 | Movix | EN/FR | Movies/TV |
 | TokyoInsider | EN/JP | Anime |
 
+> **Airflix** is temporarily disabled because its tested HLS links return HTTP 401. Refresh this repository in Nuvio to get the current enabled providers, including Movix.
+
 > **Upstream code:** Airflix, AniNeko, Movix, and TokyoInsider are adapted from [hihihihihiiray/nuvio-plugins](https://github.com/hihihihihiiray/nuvio-plugins) under GPL-3.0. See [licenses/GPL-3.0.txt](licenses/GPL-3.0.txt).
 
 ## License
